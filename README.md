@@ -1,9 +1,10 @@
 # TRAILguide
 An app that allows you to see which types of products are recommended for outdoor activities.
 
-<p align="center">
-  <img src="TRAILguide/App-Screenshots/AppInfoVC.png"/>
-  <img src="TRAILguide/App-Screenshots/AllCategoriesVC.png"/>
-  <img src="TRAILguide/App-Screenshots/SpecificCategoryVC.png"/>
-  <img src="TRAILguide/App-Screenshots/DetailVC.png"/>
-</p>
+![app_info_view](TRAILguide/App-Screenshots/AppInfoVC.png)
+
+![all_categories_view](TRAILguide/App-Screenshots/AllCategoriesVC.png)
+
+![specific_category_view](TRAILguide/App-Screenshots/SpecificCategoryVC.png)
+
+![product_detail_view](TRAILguide/App-Screenshots/DetailVC.png)
