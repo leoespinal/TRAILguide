@@ -8,11 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		B2B35DDB205F5D2D004CCF4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B35DDA205F5D2D004CCF4E /* AppDelegate.swift */; };
-		B2B35DDD205F5D2D004CCF4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B35DDC205F5D2D004CCF4E /* ViewController.swift */; };
+		B2B35DDD205F5D2D004CCF4E /* AppInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B35DDC205F5D2D004CCF4E /* AppInfoVC.swift */; };
 		B2B35DE0205F5D2D004CCF4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B35DDE205F5D2D004CCF4E /* Main.storyboard */; };
 		B2B35DE2205F5D2D004CCF4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B35DE1205F5D2D004CCF4E /* Assets.xcassets */; };
 		B2B35DE5205F5D2D004CCF4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B35DE3205F5D2D004CCF4E /* LaunchScreen.storyboard */; };
 		B2B35DF0205F5D2D004CCF4E /* TRAILguideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B35DEF205F5D2D004CCF4E /* TRAILguideTests.swift */; };
+		B2B35E00205F679E004CCF4E /* AllCategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B35DFF205F679E004CCF4E /* AllCategoriesVC.swift */; };
+		B2B35E02205F67F5004CCF4E /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B35E01205F67F5004CCF4E /* ActivityCell.swift */; };
+		B2B35E04205F690C004CCF4E /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B35E03205F690C004CCF4E /* Activity.swift */; };
+		B2B35E06205F6A35004CCF4E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B35E05205F6A35004CCF4E /* Product.swift */; };
+		B2B35E09205F6B83004CCF4E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B35E08205F6B83004CCF4E /* DataService.swift */; };
+		B2B35E0D205F6DBB004CCF4E /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B35E0C205F6DBB004CCF4E /* DetailVC.swift */; };
+		B2B35E0F205F7995004CCF4E /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B35E0E205F7995004CCF4E /* ProductCell.swift */; };
+		B2B35E11205F922C004CCF4E /* SpecificCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B35E10205F922C004CCF4E /* SpecificCategoryVC.swift */; };
+		B2B35E1320609B4E004CCF4E /* MainAppBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B35E1220609B4E004CCF4E /* MainAppBackButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +37,7 @@
 /* Begin PBXFileReference section */
 		B2B35DD7205F5D2D004CCF4E /* TRAILguide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRAILguide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B35DDA205F5D2D004CCF4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2B35DDC205F5D2D004CCF4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2B35DDC205F5D2D004CCF4E /* AppInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoVC.swift; sourceTree = "<group>"; };
 		B2B35DDF205F5D2D004CCF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2B35DE1205F5D2D004CCF4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2B35DE4205F5D2D004CCF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +45,15 @@
 		B2B35DEB205F5D2D004CCF4E /* TRAILguideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRAILguideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B35DEF205F5D2D004CCF4E /* TRAILguideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRAILguideTests.swift; sourceTree = "<group>"; };
 		B2B35DF1205F5D2D004CCF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2B35DFF205F679E004CCF4E /* AllCategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCategoriesVC.swift; sourceTree = "<group>"; };
+		B2B35E01205F67F5004CCF4E /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		B2B35E03205F690C004CCF4E /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		B2B35E05205F6A35004CCF4E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		B2B35E08205F6B83004CCF4E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		B2B35E0C205F6DBB004CCF4E /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		B2B35E0E205F7995004CCF4E /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		B2B35E10205F922C004CCF4E /* SpecificCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificCategoryVC.swift; sourceTree = "<group>"; };
+		B2B35E1220609B4E004CCF4E /* MainAppBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppBackButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +95,11 @@
 		B2B35DD9205F5D2D004CCF4E /* TRAILguide */ = {
 			isa = PBXGroup;
 			children = (
+				B2B35E07205F6B71004CCF4E /* Services */,
+				B2B35DFA205F5ED5004CCF4E /* Model */,
+				B2B35DFB205F5EDF004CCF4E /* View */,
+				B2B35DFC205F5EE8004CCF4E /* Controller */,
 				B2B35DDA205F5D2D004CCF4E /* AppDelegate.swift */,
-				B2B35DDC205F5D2D004CCF4E /* ViewController.swift */,
 				B2B35DDE205F5D2D004CCF4E /* Main.storyboard */,
 				B2B35DE1205F5D2D004CCF4E /* Assets.xcassets */,
 				B2B35DE3205F5D2D004CCF4E /* LaunchScreen.storyboard */,
@@ -94,6 +115,44 @@
 				B2B35DF1205F5D2D004CCF4E /* Info.plist */,
 			);
 			path = TRAILguideTests;
+			sourceTree = "<group>";
+		};
+		B2B35DFA205F5ED5004CCF4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2B35E03205F690C004CCF4E /* Activity.swift */,
+				B2B35E05205F6A35004CCF4E /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2B35DFB205F5EDF004CCF4E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B2B35E01205F67F5004CCF4E /* ActivityCell.swift */,
+				B2B35E0E205F7995004CCF4E /* ProductCell.swift */,
+				B2B35E1220609B4E004CCF4E /* MainAppBackButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B2B35DFC205F5EE8004CCF4E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B2B35DDC205F5D2D004CCF4E /* AppInfoVC.swift */,
+				B2B35DFF205F679E004CCF4E /* AllCategoriesVC.swift */,
+				B2B35E10205F922C004CCF4E /* SpecificCategoryVC.swift */,
+				B2B35E0C205F6DBB004CCF4E /* DetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B2B35E07205F6B71004CCF4E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B2B35E08205F6B83004CCF4E /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +258,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2B35DDD205F5D2D004CCF4E /* ViewController.swift in Sources */,
+				B2B35E04205F690C004CCF4E /* Activity.swift in Sources */,
+				B2B35E0F205F7995004CCF4E /* ProductCell.swift in Sources */,
+				B2B35E00205F679E004CCF4E /* AllCategoriesVC.swift in Sources */,
+				B2B35E11205F922C004CCF4E /* SpecificCategoryVC.swift in Sources */,
+				B2B35E1320609B4E004CCF4E /* MainAppBackButton.swift in Sources */,
+				B2B35E02205F67F5004CCF4E /* ActivityCell.swift in Sources */,
+				B2B35E0D205F6DBB004CCF4E /* DetailVC.swift in Sources */,
+				B2B35DDD205F5D2D004CCF4E /* AppInfoVC.swift in Sources */,
 				B2B35DDB205F5D2D004CCF4E /* AppDelegate.swift in Sources */,
+				B2B35E06205F6A35004CCF4E /* Product.swift in Sources */,
+				B2B35E09205F6B83004CCF4E /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
