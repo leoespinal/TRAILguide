@@ -54,6 +54,7 @@
 		B2B35E0E205F7995004CCF4E /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		B2B35E10205F922C004CCF4E /* SpecificCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificCategoryVC.swift; sourceTree = "<group>"; };
 		B2B35E1220609B4E004CCF4E /* MainAppBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppBackButton.swift; sourceTree = "<group>"; };
+		B2B35E1420616044004CCF4E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +105,7 @@
 				B2B35DE1205F5D2D004CCF4E /* Assets.xcassets */,
 				B2B35DE3205F5D2D004CCF4E /* LaunchScreen.storyboard */,
 				B2B35DE6205F5D2D004CCF4E /* Info.plist */,
+				B2B35E1420616044004CCF4E /* README.md */,
 			);
 			path = TRAILguide;
 			sourceTree = "<group>";
